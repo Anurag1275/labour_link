@@ -1,0 +1,36 @@
+{
+  "name": "Worker",
+  "fields": {
+    "name": {
+      "type": "text",
+      "required": true
+    },
+    "phone": {
+      "type": "text",
+      "required": true
+    },
+    "skills": {
+      "type": "array",
+      "items": "text"
+    },
+    "hourlyWage": {
+      "type": "number"
+    },
+    "dailyWage": {
+      "type": "number"
+    },
+    "location": {
+      "type": "text"
+    },
+    "availability": {
+      "type": "select",
+      "options": ["Available", "Busy"]
+    },
+    "experience": {
+      "type": "number"
+    },
+    "profileImage": {
+      "type": "file"
+    }
+  }
+}
