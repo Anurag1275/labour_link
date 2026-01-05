@@ -1,0 +1,29 @@
+{
+  "name": "Employer",
+  "fields": {
+    "companyName": {
+      "type": "text",
+      "required": true
+    },
+    "phone": {
+      "type": "text",
+      "required": true
+    },
+    "location": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "industry": {
+      "type": "text"
+    },
+    "logo": {
+      "type": "file"
+    },
+    "verified": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
